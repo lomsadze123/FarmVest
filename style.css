@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Kumbh+Sans:wght@400;500&family=Lato:wght@400;500&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Kumbh+Sans:wght@400;700&family=Lato:wght@400;700&family=League+Spartan:wght@400;500;600;700&family=Roboto&display=swap');
+@font-face {
+    font-family: 'Spartan-bold';
+    src: url(assets/fonts/spartan-cufonfonts/Spartan-bold.ttf);
+}
+@font-face {
+    font-family: 'Spartan-regular';
+    src: url(assets/fonts/spartan-cufonfonts/Spartan-regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: url(assets/images/Ellipse\ 122.png) left top no-repeat, url(assets/images/Ellipse\ 123.png) left top no-repeat, url(assets/images/Star.png) 387px 379px no-repeat,
+    url(assets/images/monbox.png) 1299px 134px no-repeat, url(assets/images/circle.png) 1475px 419px no-repeat, url(assets/images/dolar.png) 1738px 367px no-repeat,
+    url(assets/images/carbon.png) 150px 682px no-repeat, url(assets/images/oval.png) 553px 757px no-repeat, url(assets/images/Star\ 2.png) 1471px 776px no-repeat;
+    background-color: #263238;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+}
+
+button {
+    font-size: 18px;
+    font-family: 'spartan-regular';
+    background-color: #23B123;
+    cursor: pointer;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    height: 64px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Spartan-regular';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.farm {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    margin: 70px 150px;
+}
+
+.button {
+    margin: 60px 150px 0 0;
+}
+
+.click {
+    width: 142px;
+    font-weight: 500;
+    line-height: 21.6px;
+    font-family: 'Lato';
+}
+
+.first {
+    background-color: #263238;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+header ul {
+    margin: 81px 310px 0 290px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.heading {
+    width: 923px;
+    height: 234px;
+    margin: 69px auto 0 auto;
+}
+
+h3 ,h2, h1 {
+    font-family: 'Spartan-bold';
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 78.4px;
+    text-align: center;
+}
+
+span {
+    color: #23B123;
+}
+
+.review {
+    width: 725px;
+    height: 96px;
+    text-align: center;
+    line-height: 32.4px;
+    margin: 69px auto 0 auto;
+}
+
+form {
+     text-align: center;
+     margin-top: 48px;
+}
+
+input {
+    width: 533px;
+    height: 76px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 28px 0 28px 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+::placeholder { 
+    color: #263238;
+}
+
+.inpbut {
+    width: 163px;
+    font-weight: 500;
+    margin-left: -174px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 108.8px;
+    margin: 208px 250px 195.75px 250px;
+}
+
+.market {
+    width: 202px;
+    height: 28.95px;
+}
+
+.forbe {
+    width: 175px;
+    height: 46.25px;
+}
+
+.inside {
+    width: 175px;
+    height: 54.37px;
+}
+
+.fiderlity {
+    width: 260px;
+    height: 58.25px;
+}
+
+.wired {
+    width: 176px;
+    height: 35px;
+}
+
+.works {
+    width: 574px;
+    height: 144px;
+}
+
+.htwo {
+    font-size: 64px;
+}
+
+.ptwo {
+    height: 128px;
+    line-height: 31.86px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items h3 {
+    font-size: 20px;
+    line-height: 22.4px;
+}
+
+.items {
+    margin-top: 48px;
+}
+
+.img {
+    width: 120px;
+    height: 100px;
+    background-color: rgba(0, 128, 0, 0.1);
+    border-radius: 50%;
+}
+
+.items, .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.box p{
+    margin-top: 16px;
+    line-height: 32.4px;
+}
+
+.future {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 126px;
+}
+
+.things h3 {
+    width: 570px;
+    height: 234px;
+    font-size: 70px;
+    line-height: 78.4px;
+}
+
+.things p {
+    width: 574px;
+    height: 128px;
+    line-height: 31.86px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.three div{
+    width: 600px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.three p {
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.three img {
+    align-self: center;
+    margin-right: 30px;
+}
+
+.choose {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose h3 {
+    width: 488px;
+    height: 156px;
+    font-size: 70px;
+    line-height: 78.4px;
+}
+
+
+.choose .kve {
+    width: 563px;
+    height: 64px;
+    line-height: 31.86px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.num {
+   display: flex;
+   gap: 50px;
+   align-items: center;
+   margin-bottom: 48px;
+}
+
+.num div {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    font-size: 36px;
+    line-height: 40.32px;
+    font-family: 'Spartan-bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num p {
+    font-size: 20px;
+}
+
+.learn {
+    width: 222px;
+}
+
+.last {
+    margin-top: 200px;
+    font-size: 70px;
+    line-height: 78.4px;
+    text-align: center;
+}
+
+.above {
+    width: 563px;
+    font-size: 18px;
+    line-height: 31.86px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.twoimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.firstimage, .secondimage {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 686px;
+    height: 377px;
+    border-radius: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.par {
+    width: 320px;
+    height: 128px;
+    line-height: 31.86px;
+}
+
+.graph , .par {
+    margin: 32px 0 32px 32px;
+}
+
+.viewb {
+    text-align: center;
+}
+
+.view {
+    width: 221px;
+    line-height: 20.16px;
+    margin-top: 70px;
+}
+
+.big {
+    width: 1046px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    background: url(assets/images/bg1.png) center center no-repeat, url(assets/images/bg2.png) center center no-repeat;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.big h2 {
+    width: 760px;
+    height: 126px;
+    line-height: 62.72px;
+    font-size: 56px;
+    margin: 0 auto;
+    padding-top: 72px;
+}
+
+.googlestore {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 66px;
+    gap: 25.66px;
+}
+
+footer {
+    width: 100%;
+    height: 460px;
+    background-color: rgba(53, 64, 70, 0.5);
+    margin-top: 200px;
+}
+
+.footer {
+    padding: 68px 150px 56px 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add {
+    width: 145px;
+    margin-left: -152px;
+}
+
+.hh p {
+    width: 352px;
+    height: 96px;
+    line-height: 31.86px;
+}
+
+.same p {
+    width: 438px;
+    height: 64px;
+    line-height: 31.86px;
+}
+
+.container h3 {
+    font-size: 16px;
+    line-height: 17.92px;
+}
+
+.gap {
+    margin-top: 24px;
+}
+
+.social img {
+    cursor: pointer;
+}
+
+address a{
+    font-size: 16px;
+    line-height: 18.75px;
+    font-style: normal;
+    color: white;
+    font-family: 'Roboto';
+    letter-spacing: 0.1px;
+}
+
+.social img:nth-child(2){
+    margin: 0 16px;
+}
+
+.sum {
+    display: flex;
+}
+
+.secondline {
+    margin-left: 48px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    margin-top: 100px;
+}
+
+.lastline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.lastline p {
+    height: 13px;
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 13.44px;
+    font-weight: 300;
+}
+
+.ul {
+    font-size: 14px;
+    line-height: 15.68px;
+    font-family: 'Spartan-regular';
+}
+
+.ul li {
+    margin-left: 36px; /* due to list (-4)*/
+}
